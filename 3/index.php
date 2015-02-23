@@ -5,9 +5,9 @@
  * Date: 23.02.2015
  * Time: 10:54
  */
-if(isset($_POST['text'])){
+if (isset($_POST['text'])) {
     include_once "clear.php";
-$clear = new clear();
+    $clear = new clear();
     $clear->clearlink($_POST['text']);
 
 }
