@@ -9,4 +9,9 @@ $(document).ready(function () {
         var inp = $(".content");
         inp.append('<a href="#'+num+'"><p>'+$(this).text()+'</p></a>');
     });
+    //$('h3>a').each(function (i) {
+    //    var num = i+1;
+    //    var inp = $(".content");
+    //    inp.append('<a href="#'+num+'"><p>'+$(this).text()+'</p></a>');
+    //});
 });

@@ -4,14 +4,23 @@
     margin: 30px auto;
     border: 2px solid #000000;
     min-height: 10px;
-}
-.content p{
-    text-align: center;
-border-bottom: 1px dotted;
+
 }
 
-.text{
-margin: 50px auto;
+.content p {
+    text-align: center;
+    font-size: 12pt;
+    border-bottom: 1px dotted;
+}
+
+/*.content p>p {*/
+    /*text-align: center;*/
+    /*font-size: 10pt;*/
+    /*margin-left: 10px;*/
+/*}*/
+
+.text {
+    margin: 50px auto;
     width: 800px;
     height: auto;
     background-color: #f5ff00;
