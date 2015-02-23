@@ -1,0 +1,19 @@
+.content {
+    display: block;
+    width: 500px;
+    margin: 30px auto;
+    border: 2px solid #000000;
+    min-height: 10px;
+}
+.content p{
+    text-align: center;
+border-bottom: 1px dotted;
+}
+
+.text{
+margin: 50px auto;
+    width: 800px;
+    height: auto;
+    background-color: #f5ff00;
+    padding: 15px;
+}
