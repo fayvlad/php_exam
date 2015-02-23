@@ -5,5 +5,13 @@
  * Date: 23.02.2015
  * Time: 10:54
  */
+if(isset($_POST['text'])){
+
+}
 ?>
-<input type="ar">
+<form method="post">
+    <textarea name="text" rows="10">
+    </textarea>
+    <br>
+    <input type="submit">
+</form>
